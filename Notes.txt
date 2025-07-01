@@ -1,0 +1,89 @@
+• FastAPI :-
+	1. API: Application Programming Interface-refers to web applications using the HTTP protocol to transmit structured data.
+	2. Web Application : application that serves traffic over the web
+	3. Web Framework: software frameeork that helps build web applications
+	4. FastAPI is a fast way to build high-performance AP!s using python.
+
+• Key features of FastApi :-
+	1. Fast: Very high performance 
+	2. Low code and easy to learn: python annotation and type hints
+	3. Robust: Production-ready code with autodoc
+	4. Standards-based: Based on OpenAPI and JSON Schaema
+
+• Key differnces :-
+	1. For APIs without database operations
+	2. Data and ML transactions
+
+• Building our first web application with fastAPI :-
+	1. Install FastAPI 
+		pip install fastapi
+	2. Create your app in main.py
+		from fastapi import FastAPI
+		app = FastAPI()
+		@app.get("/")
+		def read_root():
+			return{"message":"hello world"}
+	3. Run the server
+		python main.py
+
+• Notes :-
+
+1. Can't run the FastAPI server with the "Run this code" button
+2. Define server code in the Python editor as main.py instead
+3. Run it from the terminal using the command fastapi dev main.py
+4. Verify that the logs in the terminal show Application startup complete.
+5. Stop the live server by pressing Control + C in the same terminal
+6. You should install FastAPI in your own Python environment to get used to practicing there
+    as well
+
+````````````````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````````````
+
+• Get operations :-
+	
+	1. HTTP protocol - several types of operations
+	2. Get is the most common
+   • the Key parts of a GET request are:
+	1. Host, eg www.google.com
+	2. Port, eg 80
+	3. Path, eg /search
+	4. Query String, eg ?q=fastapi
+   
+   • Using the cUTL web client :-
+	•key cURL options:
+		$curl -h
+		Usage: curl [options...] <url>
+		 -V, --verbose			Make the operation more talkative 
+		 -H, --header<header/@file>	Pass custom header(s) to server
+		 -d, --data <data>		HTTP POST data
+
+• Query Parameters
+	New endpoint:
+	
+	1. Path: "/hello"
+	2. Query parameter: "name"
+		. Default value: "Alan"
+		
+		@app. get("/hello")
+		def hello(name: str = "Alan"):
+			return {"message": f"Hello {name}"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

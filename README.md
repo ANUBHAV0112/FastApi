@@ -21,3 +21,12 @@ A simple Task Manager REST API built with **FastAPI**, designed to perform CRUD 
 FastAPI automatically generates interactive API documentation with Swagger UI.  
 After running the app, open this URL in your browser:
 
+
+---
+
+👨‍💻 Author :
+Anubhav Choudhary
+
+[LinkedIn](https://www.linkedin.com/in/anubhav-choudhary-35b8ab254/) | [GitHub](https://github.com/ANUBHAV0112)
+
+---
